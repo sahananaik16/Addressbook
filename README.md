@@ -1,1 +1,2 @@
 # Addressbook
+The address book project in C is a basic application designed to manage contact information efficiently. It allows users to add, search, modify, and delete contacts from a list. Each contact typically includes fields such as name, phone number, and email address. The program utilizes file handling to store the contact information persistently, ensuring that the data is not lost between sessions. It also implements simple user interfaces with menus for easy navigation. Additionally, it handles error checking to ensure data integrity.
