@@ -1,0 +1,137 @@
+Name: Sahana B Naik
+Date:14/09/2024
+Project name:Address Book
+Description: The address book project in C is a basic application designed to manage contact information efficiently. 
+             It allows users to add, search, modify, and delete contacts from a list. Each contact typically includes 
+             fields such as name, phone number, and email address. The program utilizes file handling to store the 
+             contact information persistently, ensuring that the data is not lost between sessions. It also implements 
+             simple user interfaces with menus for easy navigation. Additionally, it handles error checking to ensure 
+             data integrity.
+input:Address Book Menu:
+        1. Create contact
+        2. Search contact
+        3. Edit contact
+        4. Delete contact
+        5. List all contacts
+        6. Exit
+        Enter your choice: 5
+
+Test case 1:
+    Enter your choice: 1
+
+    Enter the name:
+    Sanjana
+    Enter the phone number:
+    9980421304
+    Enter the email:
+    san@gmail.com
+    Contact saved successfully
+
+Test case 2:
+    Enter your choice: 1
+
+    Search menu:
+    1.search by name
+    2.search by phone number
+    3.search by email id
+
+    Enter your choice: 1
+    Enter the name:sanjana
+    Sanjana 9980421304 san@gmail.com
+
+    Enter your choice: 2
+    Enter the phone number:99
+    David Brown 7778889999 david@example.com
+    Ian Lewis 8889990000 ian@example.com
+    Sanjana 9980421304 san@gmail.com
+
+    Enter your choice: 3
+    Enter the email:san
+    Sanjana 9980421304 san@gmail.com
+
+Test case 3:
+    
+    Enter your choice: 3
+    Menu:
+    1.search by name
+    2.search by email id
+    Enter your choice: 1
+    Enter the name:a
+
+    2 Alice Smith 0987654321 alice@example.com
+    4 Carol White 4445556666 carol@company.com
+    5 David Brown 7778889999 david@example.com
+    6 Eve Davis 6665554444 eve@example.com
+    7 Frank Miller 3334445555 frank@example.com
+    8 Grace Wilson 2223334444 grace@example.com
+    9 Hannah Clark  5556667777 hannah@example.com
+    10 Ian Lewis 8889990000 ian@example.com
+
+    Select the index of the name: 4
+    Edit Menu:
+    1.Edit name
+    2.Edit Phone number
+    3.Edit email id
+    Enter your choice: 1
+    Enter the edit name:
+    sahana
+    Name updated successfully.
+   
+Test case 4:
+     
+    Enter your choice: 4
+
+    Delete menu:
+    1. Delete by searching name
+    2. Delete by searching phone number
+    3. Delete by searching email id
+
+    Enter your choice: 2
+    Enter the phone number: 9
+
+    1 John Doe 1234567890 john@example.com
+    2 Alice Smith 0987654321 alice@example.com
+    5 David Brown 7778889999 david@example.com
+    10 Ian Lewis 8889990000 ian@example.com
+
+    Select the index of the name: 2
+    Contact deleted successfully!!
+
+Test case 5:
+
+    Enter your choice: 5
+
+    S.no    Name            Phone number    Email
+    1.      John Doe        1234567890      john@example.com
+    2.      Alice Smith     0987654321      alice@example.com
+    3.      Bob Johnson     1112223333      bob@company.com
+    4.      Carol White     4445556666      carol@company.com
+    5.      David Brown     7778889999      david@example.com
+    6.      Eve Davis       6665554444      eve@example.com
+    7.      Frank Miller    3334445555      frank@example.com
+    8.      Grace Wilson    2223334444      grace@example.com
+    9.      Hannah Clark     5556667777     hannah@example.com
+    10.     Ian Lewis       8889990000      ian@example.com
+    11.     sahana  8147417330      sbn@gmail.com
+
+Test case 6:
+
+    Enter your choice: 6
+    Saving and exiting..
+
+    John Doe,1234567890,john@example.com
+    Alice Smith,0987654321,alice@example.com
+    Bob Johnson,1112223333,bob@company.com
+    Carol White,4445556666,carol@company.com
+    David Brown,7778889999,david@example.com
+    Eve Davis,6665554444,eve@example.com
+    Frank Miller,3334445555,frank@example.com
+    Grace Wilson,2223334444,grace@example.com
+    Hannah Clark, 5556667777,hannah@example.com
+    Ian Lewis,8889990000,ian@example.com
+    sahana,8147417330,sbn@gmail.com
+
+Test case 7:
+
+    Enter your choice: 7
+    Exiting addressbook
